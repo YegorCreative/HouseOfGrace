@@ -17,8 +17,49 @@ body {
     color:black;
     /*font-family: 'Righteous', cursive;*/
     font-family: 'Roboto', sans-serif;
+    position: relative;
 }
-
+#header{
+    width: 100%;
+    margin-top: 0;
+    box-sizing: border-box;
+}
+/*paralax*/
+.parallax {
+    margin-top: 0;
+    /* The image used */
+    background-image: url("../Assets/worship.png");
+  
+    /* Full height */
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.parallax h1{ 
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+.parallax h2{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+.logoH{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
 .lastQuote{
     width: 100%;
     background-color: blue;
@@ -27,4 +68,28 @@ body {
     padding: 10px;
     text-align: center;
     font-family: 'Righteous', cursive;
+}
+.arrowDown{
+    margin-left: auto;
+    margin-right: auto;
+}
+#bodyOne{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-image: url(../Assets/prayingHands.png);
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-size: 320px;
+    background-position: center;
+    background-position: top;
+    margin-top: 20px;
+
+}
+.calendarTwo{
+    display: none;
 }
