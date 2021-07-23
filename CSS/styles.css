@@ -123,6 +123,7 @@ body {
 #bodyTwo{
     box-sizing: border-box;
     width: 100%;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -130,18 +131,17 @@ body {
 }
 .prayer {
     width: 100%;
-    height: 100%;
-    position: inherit;
+   margin-top: 0;
 }
 .mission {
     width: 100%;
     box-sizing: border-box;
-    position: absolute;
     color: white;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: -630px;
 }
 .mission h1{
     font-family: 'Righteous', cursive;
@@ -158,7 +158,8 @@ body {
     justify-content: center;
 }
 .divA {
-    width: 300px;
+    max-width: 320px;
+    width: 50%;
     height: 180px;
     display: flex;justify-content: center;
     flex-direction: column;
@@ -188,6 +189,7 @@ body {
     justify-content: center;
     align-items: center;padding-bottom: 30px;
     background-image: url(../Assets/Asset3.png);
+    margin-top: 200px;
 }
 #bodyThree span{
     width: 100px;
@@ -218,14 +220,13 @@ body {
     align-items: center;
     flex-direction: column;
 }
-#topPart, #bottomPart{
+#topPart, #bottomPart {
     max-width: 1440px;
     box-sizing: border-box;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
-
 }
 .fourLeft, .fourRight{
     width: 50%;
@@ -249,16 +250,14 @@ body {
     width: 100%;
     height: 800px;
     box-sizing: border-box;
-    position: relative;
-    background-image: url(../Assets/book.png);
 }
 
 .stateMent{
     width: 100%;
     box-sizing: border-box;
     text-align: center;
-    position: absolute;
-    top: 110px;
+    
+    margin-top: -630px;
     color: white;
 }
 .stateMent h1{
@@ -267,4 +266,81 @@ body {
 }
 .stateMent h3{
     font-family: 'Righteous', cursive;
+}
+/* bottom Part*/
+
+#bottomPart{
+    width: 100%;
+    height: auto;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+}
+
+.openBook{
+    overflow: hidden;
+    width: 100%;
+    margin-top: -360px;
+}
+.boxCont {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: -830px;
+    
+}
+.boxCont h1{
+    font-family: 'Righteous', cursive;
+    font-size: 45px;
+    color: #EE4123;
+}
+.divsThree{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+.partS{
+    width: 190px;
+    box-sizing: border-box;
+    height: auto;
+    padding: 7px;
+    background: #2C2889;
+    color: white;
+    margin: 15px;
+    border-radius: 25px;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+}
+
+/* footer */
+#footerS{
+    width: 100%;
+    height: 300px;
+    background-color: #2C2889;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.iWantThree{
+    width: 300px;
+    box-sizing: border-box;
+    height: 250px;
+    color: white;
+    text-align: center;
+    
+}
+.iWantThree a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.lastQuote a {
+    color: white;
+    text-decoration: none;
 }

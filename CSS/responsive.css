@@ -1,5 +1,8 @@
 
-@media screen and (min-width: 498px){
+@media screen and (max-width: 920px){
+    
+}
+@media screen and (-width: 498px){
    
    
 }
