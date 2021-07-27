@@ -199,13 +199,30 @@ body {
     background-size: 150px;
     background-size: cover;
 }
-
+#bodyThree h1 {
+    font-family: 'Righteous', cursive;
+}
+.ourVision{
+    font-size: 40px;
+    color: #EE4123;
+}
 .threeWords{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+.threeWords div{
+    width: 100%;
+    text-shadow: 1px 1px 1px #000, 
+    3px 3px 5px blue;
+    color: white;
+    line-height: 20px;
+}
+.ephesians{
+    font-family: 'Righteous', cursive;
+    color: #EE4123;
 }
 .letsPad{
     padding-left:20px;
