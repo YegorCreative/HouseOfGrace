@@ -165,7 +165,6 @@ body {
 }
 .divA {
     width: 320px;
-    width: 100%;
     height: 180px;
     display: flex;justify-content: center;
     flex-direction: column;
@@ -248,23 +247,23 @@ body {
     margin-top: 0;
 }
 #topPart, #bottomPart {
-    width: 320px;
+    width: 100%;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
-#bottomPart{
+/*#bottomPart{
     flex-flow: column-reverse;
-}
+}*/
 .fourLeft, .fourRight{
     width: 100%;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-flow: column;
     text-align: center;
     padding: 15px;
 }

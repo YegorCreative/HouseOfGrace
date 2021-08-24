@@ -1,17 +1,45 @@
 
-@media screen and (max-width: 920px){
-    
-}
-@media screen and (-width: 498px){
+@media screen and (max-width: 1440px){
    
    
-}
-@media screen and (min-width: 769px){
-    
 }
 @media screen and (min-width: 920px){
     
 }
+
+@media screen and (max-width: 769px){
+  body{
+    width: 750px;
+  }  
+  .threeWords div{
+    width: 320px;
+  }
+  
+#bodyFour {
+  flex-wrap: wrap;
+}
+
+}
+@media screen and (min-width: 498px){
+  .fourLeft, .fourRight{
+    width: 50%;
+  }
+  #topPart, #bottomPart{
+    flex-flow: row-reverse;
+  }
+}
+@media screen and (max-width: 498px){
+  body{
+    width: 450px;
+  }
+  .fourLeft, .fourRight{
+    width: 50%;
+    flex-direction: row;
+  }
+   
+}
+
+
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
