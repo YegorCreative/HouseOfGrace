@@ -263,7 +263,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column;
+    flex-flow: wrap column;
     text-align: center;
     padding: 15px;
 }
@@ -282,6 +282,9 @@ body {
     background-image: url(../Assets/book.png);
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .stateMent{
@@ -323,7 +326,10 @@ body {
     box-sizing: border-box;
     text-align: center;
     margin-top: 5px;
-    
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    justify-content: center;
 }
 .boxCont h1{
     font-family: 'Righteous', cursive;
@@ -336,7 +342,10 @@ body {
     display: flex;
 flex-direction: column;
 justify-content: center;
-
+align-items: center;
+}
+.boxCont h2{
+    max-width:580px;
 }
 .partS{
     width: 280px;
