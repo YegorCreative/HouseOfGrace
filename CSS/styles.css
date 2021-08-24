@@ -245,6 +245,7 @@ body {
     align-items: center;
     flex-direction: column;
     margin-top: 0;
+    padding: 15px;
 }
 #topPart, #bottomPart {
     width: 100%;
@@ -285,6 +286,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px;
 }
 
 .stateMent{
@@ -293,6 +295,7 @@ body {
     text-align: center;   
     margin-top: 10px;
     color: white;
+    padding: 15px;
 }
 .stateMent h1{
     font-family: 'Righteous', cursive;
@@ -318,6 +321,7 @@ body {
    background-image: url(../Assets/bottomBackground.png);
    background-size: cover;
    background-position: bottom;
+   padding: 15px;
 }
 
 
@@ -330,6 +334,7 @@ body {
     flex-flow: wrap column;
     align-items: center;
     justify-content: center;
+    padding: 15px;
 }
 .boxCont h1{
     font-family: 'Righteous', cursive;

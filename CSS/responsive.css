@@ -17,9 +17,12 @@
   #bottomPart2{
     margin-top: -100px;
     height: 880px;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     background-position: center;
+  }
+  #footerS {
+    flex-flow: wrap row;
   }
 }
 @media screen and (max-width: 769px){
@@ -42,6 +45,9 @@
   #topPart, #bottomPart{
     flex-flow: row-reverse;
   }
+  #bodyFour p{
+    font-size: 20px;
+  }
   .stateMent h2, .stateMent h3{
     font-size: 24px;
 }
@@ -51,7 +57,7 @@
     width: 450px;
   }
   .fourLeft, .fourRight{
-    width: 50%;
+   
     flex-direction: row;
   }
    
