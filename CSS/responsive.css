@@ -1,12 +1,23 @@
+@media screen and (min-width: 1441px){
+  body{
+    width:1440px;
 
+  } 
+}
 @media screen and (max-width: 1440px){
-   
+  body{
+    width:1440px;
+  } 
    
 }
 @media screen and (min-width: 920px){
     
 }
-
+@media screen and (min-width: 770px){
+  #bottomPart2{
+    height: 1000px;
+  }
+}
 @media screen and (max-width: 769px){
   body{
     width: 750px;
