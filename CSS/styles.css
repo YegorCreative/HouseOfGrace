@@ -198,6 +198,7 @@ body {
     margin-top: 10px;
     background-size: 150px;
     background-size: cover;
+    padding: 15px;
 }
 #bodyThree h1 {
     font-family: 'Righteous', cursive;
