@@ -27,14 +27,18 @@
   .divsThree{
     flex-flow: wrap row;
   }
+  .threeWords div{
+    width: 300px;
+  }
+  .threeWords{
+    flex-direction: row;
+  }
 }
 @media screen and (max-width: 769px){
   body{
     width: 750px;
   }  
-  .threeWords div{
-    width: 320px;
-  }
+  
   
 #bodyFour {
   flex-wrap: wrap;
