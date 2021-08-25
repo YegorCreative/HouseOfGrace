@@ -315,7 +315,7 @@ body {
 
 #bottomPart2{
     width: 100%;
-    height: 600px;
+    height: auto;
    box-sizing: border-box;
    display: flex;
    flex-direction: column;
@@ -323,6 +323,7 @@ body {
    background-size: cover;
    background-position: bottom;
    padding: 15px;
+   margin-top: 0;
 }
 
 
@@ -352,8 +353,10 @@ align-items: center;
 }
 .boxCont h2{
     max-width:580px;
+    padding:15px 15px;
 }
-.partS{
+
+#partS{
     width: 280px;
     box-sizing: border-box;
     height: auto;
@@ -365,6 +368,59 @@ align-items: center;
     font-family: 'Righteous', cursive;
     font-size: 20px;
 }
+#myBtn {
+    width: 120px;
+    box-sizing: border-box;
+    height: auto;
+    padding: 7px;
+    background: #2C2889;
+    color: white;
+    margin: 15px;
+    border-radius: 25px;
+    font-family: 'Righteous', cursive;
+    font-size: 14px;
+    border: none;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color:#2C2889;
+    float: right;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
 /* footer */
 #footerS{

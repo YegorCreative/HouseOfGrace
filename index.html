@@ -121,10 +121,20 @@
         <div class="boxCont">
             <h1>Our Ministries</h1>
             <div class="divsThree">
-                <div class="partS">WMU</div>
-                <div class="partS">Brotherhood</div>
-                <div class="partS">Kids Ministry</div>
+                <div id="partS">WMU</div>
+                <div id="partS">Brotherhood</div>
+                 <div id="partS">Kids Ministry </div>
+                 <button id="myBtn">Learn more...</button>
             </div>
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <img src="Assets/comingSoon.png.png" width="100%" alt="coming soon image">
+                </div>
+              
+              </div>
             <h1>Small Groups</h1>
             <h2>We have many Bible studies meeting around the area.<br>
                 Everyone is welcome!<br>
@@ -137,10 +147,9 @@
     <div id="footerS">
         <div class="iWantThree">
             <h1>Service Times</h1>
-            <p>Prayer Time - Sunday 10:30 am</p>
-            <p>Breakfast Time - Sunday 11:00 am</p>
-            <p>Worship Time - Sunday 11:30 am</p>
-            <p>Prayer Time - Wednesday 7:00 pm</p>
+            <p>Breakfast Time - Sunday 9:00 am</p>
+            <p>Worship Service - Sunday 10:00 am</p>
+            <p>Prayer - Wednesday 7:00 pm</p>
         </div>
         <div class="iWantThree">
             <h1>Address</h1>
@@ -155,5 +164,32 @@
     </div>
     
     <div class="lastQuote">Business is complicated, your web solutions can be  simple. <a href="https://yegorcreative.com/" target="_blank">@YegorCreative2021</a></div>
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        </script>
 </body>
 </html>
